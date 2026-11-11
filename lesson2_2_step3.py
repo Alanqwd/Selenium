@@ -11,7 +11,6 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-
     # Посчитать сумму заданных чисел
     x_element = browser.find_element(By.CSS_SELECTOR, "[id='num1']")
     y_element = browser.find_element(By.CSS_SELECTOR, "[id='num2']")
